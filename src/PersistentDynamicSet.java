@@ -1,3 +1,6 @@
+/* Persistent Dynamic Set which shows the version of tree change. 
+   this class stored nodes that effected in each changes */
+
 import java.util.LinkedList;
 import java.util.List;
 
