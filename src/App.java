@@ -1,6 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
        BinarySearchTree<String> tree = new BinarySearchTree<>();
+       //PersistentDynamicSet<String> tree = new PersistentDynamicSet<>();
+       //BalancedPersistentDynamicSet<String> tree = new BalancedPersistentDynamicSet();
 
        tree.add("cow");
        tree.add("fly");
