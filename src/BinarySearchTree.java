@@ -1,4 +1,3 @@
-
 public class BinarySearchTree<E extends Comparable<E>> {
 	public Node<E> rootNode = null;
 	private boolean result_a;
