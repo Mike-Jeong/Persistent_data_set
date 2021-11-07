@@ -1,4 +1,4 @@
-public class App {
+public class PersistentDynamicSetMain {
     public static void main(String[] args) throws Exception {
        BinarySearchTree<String> tree = new BinarySearchTree<>();
        //PersistentDynamicSet<String> tree = new PersistentDynamicSet<>();
