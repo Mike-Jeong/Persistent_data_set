@@ -14,9 +14,10 @@ public class PersistentDynamicSetMain {
        tree.add("ant");
        tree.add("owl");
 
-       System.out.println("tree : " + tree.toString());
-       System.out.println("rootnode : " + tree.rootNode);
-       System.out.println();
+       ProcessStep t = new ProcessStep();
+       t.testBinary(tree);
+       // t.testPersistent(tree);
+       // t.testBalanced(tree);
 
     }
 }
