@@ -15,7 +15,7 @@ public class PersistentDynamicSetMain {
        tree.add("owl");
 
        ProcessStep t = new ProcessStep();
-       t.testBinary(tree);
+        t.testBinary(tree);
        // t.testPersistent(tree);
        // t.testBalanced(tree);
 
